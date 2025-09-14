@@ -24,7 +24,7 @@ const User = () => {
     ];
 
     return (
-      /*  <main>
+         <main>
             { usersInfo.map((user =>(
                 <ul key={Math.random()}>
                     <li>{user.username}</li>
@@ -32,11 +32,11 @@ const User = () => {
                     <li>{user.location}</li>
                 </ul>
            )))}
-        </main>*/
+        </main>
 
         /* OR THIS OPTIONAL */
-
-        <main>
+   
+     /*      <main>
         { usersInfo.map(({username, email, location})=>(
             <ul key={Math.random()}>
             <li>{username}</li>
@@ -44,9 +44,10 @@ const User = () => {
             <li>{location}</li>
             </ul>
             ))}
-        </main>
+        </main> */
         
     )
 }
+
 
 export default User ;
