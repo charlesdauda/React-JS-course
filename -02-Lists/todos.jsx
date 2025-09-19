@@ -20,4 +20,8 @@ const Todos = () => {
     )
 }
 
+
 export default Todos;
+
+
+//you can use the close circuit method, using the ampersand
